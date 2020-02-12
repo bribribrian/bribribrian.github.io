@@ -32,6 +32,10 @@ h1 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+#work-main-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 
 
 
@@ -83,6 +87,41 @@ a:after {
     padding: 0;
 }
 
+#work-hr {
+	margin-bottom: 0px;
+}
+
+#work-link {
+	font-weight: 800;
+	font-size: 16px;
+}
+#work-subtitle {
+	font-weight: 600;
+	font-size: 18px;
+}
+#work-image-margin-top {
+	margin-top: 0px;
+}
+#work-image {
+	border: 3px solid darkgrey;
+}
+#work-image-2 {
+	border: 3px solid darkgrey;
+	width: 45%;
+	display: inline-block;
+	height: 190px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#work-row-mt-features {
+	margin-top: 10px;
+}
+#work-features-bold {
+	font-weight: 800;
+}
+#work-features-p {
+	margin-bottom: 10px;
+}
 
 .navbar {
 	text-transform: uppercase;
@@ -90,8 +129,8 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 5px;
+	padding-top: 20px;
 }
 
 .navbar-inverse {
@@ -130,12 +169,12 @@ a:after {
 
 .mt {
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 
@@ -145,6 +184,7 @@ a:after {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	background-color: #c4c4c4;
+	border-bottom: 1px solid rgb(1, 204, 109);
 }
 
 
@@ -152,6 +192,7 @@ a:after {
 	background-color: rgb(87,87,87);
 	padding-top: 50px;
 	padding-bottom: 50px; 
+	border-top: 1px solid rgb(1, 204, 109);
 }
 
 #footer p {
@@ -246,15 +287,26 @@ bt {
 	border: 3px, solid, black;
 	margin-bottom: 25px;
 }
-
+.col-lg-4 p {
+	font-weight: 800;
+}
 #thumbnail {
-	height: 300px;
+	height: 230px;
 	width: 390px;
-	border: 1px solid darkgrey;
+	border: 3px solid darkgrey;
 	background-color: white;
 	width: 100%;
 }
 
 .project-body {
 	text-align: center;
+}
+
+#main-subtitle {
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+
+.about-me {
+	font-size: 16px;
 }

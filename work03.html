@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/img/b-icon-24.jpg">
 
     <title>Brian Klein</title>
 
@@ -58,31 +58,40 @@
 	<div class="container pt">
 		<div class="row mt">
 			<div class="col-lg-6 col-lg-offset-3 centered">
-				<h3>Music Taste Comparator</h3>
-				<hr>
-				| <a href="https://music-taste-comparator.herokuapp.com/">Live Site</a> | <a href="https://github.com/bribribrian/Music-Taste-Comparator">Github</a> |
-        <p>A JavaScript D3.js data visulaizer utilizing the Spotify API.</p>
-        <p>Music Taste Comparator was built using JavaScript, HTML5, CSS3, and D3.js</p>
+				<h1 id='work-main-title'>Music Taste Comparator</h1>
+        <hr id='work-hr'>
+        | <a id='work-link' target="_blank" href="https://music-taste-comparator.herokuapp.com/">Live Site</a> | <a id='work-link'  target="_blank" href="https://github.com/bribribrian/Music-Taste-Comparator">Github</a> |
+        <p id='work-subtitle'>A JavaScript project utilizing Spotify API.</p>
+        <p>Music Taste Comparator was built using JavaScript, Spotify API, Ajax, HTML5, CSS3, and D3.js</p>
 			</div>
 		</div>
-		<div class="row mt centered">	
+		<div id='work-image-margin-top' class="row mt centered">	
 			<div class="col-lg-8 col-lg-offset-2">
-				<p><img class="img-responsive" src="assets/img/javascriptthumb2.png" alt=""></p>
+        <p><img id= 'work-image' class="img-responsive" src="assets/img/MTC-main.png" alt=""></p>
+        <img id= 'work-image-2' class="img-responsive" src="assets/img/MTC-login.png" alt="">
+        <img id= 'work-image-2' class="img-responsive" src="assets/img/MTC-stats.png" alt="">
 				<!-- <p><img class="img-responsive" src="assets/img/portfolio/2.jpg" alt=""></p>
 				<p><img class="img-responsive" src="assets/img/portfolio/3.jpg" alt=""></p>
 				<p><bt>Client: <a href="#">BlackTie.co</a></bt> - <bt>Type: <a href="#">Illustration</a></bt> - <bt>Date: <a href="#">January 2014</a></bt></p> -->
 			</div>
     </div><!-- /row -->
-    <p class='project-body'>Implements Spotify API to get user listening data.</p>
-	  <p class='project-body'>Built feature to allow search of another user’s listening data leveraging API calls, JavaScript promises, and JSON</p>
-	  <p class='project-body'>Applied D3.js selections, mouse-over transitions, and data-binding for visually appealing data display</p>
+    <div id="work-row-mt-features" class="row mt">
+      <div class="col-lg-6 col-lg-offset-3 centered">
+        <h2>Features</h2>
+        <hr id='work-hr'>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">User Login </span> Users can log in using an existing Spotify account through the Spotify API. 
+             A demo account is provided for non-Spotify users.</p>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">User Statistics: </span> Upon log in, user's Spotify data is fectched and displayed showing their top song and top genres.</p>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Friend Search: </span> User can search a friend's username to view their top songs of 2019 playlist. 
+            The searched users top songs and genres are incorporated into the display.</span> 
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Recommended Tracks: </span> Based on data from the current user and the searched user, a list of recommended tracks will be genarated</p>
+      </div>
+    </div>
 	</div><!-- /container -->
-	
-	
 	<!-- +++++ Footer Section +++++ -->
 	
 	<div id="footer">
-		<div class="container">
+    <div class="container">
 			<div class="row">
 				<div class="col-lg-4">
 					<h4>Contact</h4>
@@ -105,15 +114,13 @@
 				<!-- <div class="col-lg-4">
 					<h4>About Stanley</h4>
 					<p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
-				</div><!-- /col-lg-4 -->
-			 -->
+                </div>
 			</div>
 		
 		</div>
 	</div>
 	
-
-    <!-- Bootstrap core JavaScript
+     Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.min.js"></script>

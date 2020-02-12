@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/img/b-icon-24.jpg">
 
     <title>Brian Klein</title>
 
@@ -58,31 +58,40 @@
 	<div class="container pt">
 		<div class="row mt">
 			<div class="col-lg-6 col-lg-offset-3 centered">
-				<h3>Mysticamp</h3>
-        <hr>
-        | <a href="https://mysticamp.herokuapp.com/">Live Site</a> | <a href="https://github.com/bribribrian/MystiCamp">Github</a> |
-        <p>A full-stack Ruby on Rails Hipcamp clone.</p>
-        <p>Mysticamp was built using  React, Redux, Ruby on Rails, PostgreSQL, and Ajax.</p>
+				<h1 id='work-main-title'>MystiCamp</h1>
+        <hr id='work-hr'>
+        | <a id='work-link' target="_blank" href="https://mysticamp.herokuapp.com/">Live Site</a> | <a id='work-link'  target="_blank" href="https://github.com/bribribrian/MystiCamp">Github</a> |
+        <p id='work-subtitle'>A full-stack Ruby on Rails Hipcamp clone.</p>
+        <p>Mysticamp was built using  React, Redux, Ruby on Rails, PostgreSQL, Javascript, Ajax, Google Maps API, HTML5, CSS3, SCSS.</p>
 			</div>
 		</div>
-		<div class="row mt centered">	
+		<div id='work-image-margin-top' class="row mt centered">	
 			<div class="col-lg-8 col-lg-offset-2">
-				<p><img class="img-responsive" src="assets/img/fullstackthumb.png" alt=""></p>
+        <p><img id= 'work-image' class="img-responsive" src="assets/img/mysticamp-search-screen-shot1.png" alt=""></p>
+        <img id= 'work-image-2' class="img-responsive" src="assets/img/fullstackthumb.png" alt="">
+        <img id= 'work-image-2' class="img-responsive" src="assets/img/mysticamp-searchmap-screen-shot.png" alt="">
 				<!-- <p><img class="img-responsive" src="assets/img/portfolio/2.jpg" alt=""></p>
 				<p><img class="img-responsive" src="assets/img/portfolio/3.jpg" alt=""></p>
 				<p><bt>Client: <a href="#">BlackTie.co</a></bt> - <bt>Type: <a href="#">Illustration</a></bt> - <bt>Date: <a href="#">January 2014</a></bt></p> -->
 			</div>
     </div><!-- /row -->
-    <p class='project-body'>Utilizes Rails polymorphic associations, creating one class that can be used by many others, for DRY code</p>
-    <p class='project-body'>Accomplished pixel perfect representation of cloned site using CSS flexbox for eye pleasing appearance</p>
-    <p class='project-body'>Incorporated Google Maps API to show accurate geo-location of sites for interactive user experience</p>
+    <div id="work-row-mt-features" class="row mt">
+      <div class="col-lg-6 col-lg-offset-3 centered">
+        <h2>Features</h2>
+        <hr id='work-hr'>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">User Authenication: </span> User Auth created using BCrypt, Users can securely create an account and log in/log out with ease,
+            Demo user log in available for guests</p>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Listing Search: </span> Users can search all available listings based on location using Google Maps API, Google Places API implemented 
+            for autocomplete in search, Google Geocoding API allows for accurate results</p>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Bookings: </span> React-dates calendar library for easy booking experience, Logged in user can make/cancel bookings</span> 
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Back end: </span> Utilizes Rails polymorphic associations, creating one class that can be used by many others, for DRY code</p>
+      </div>
+    </div>
 	</div><!-- /container -->
-	
-	
 	<!-- +++++ Footer Section +++++ -->
 	
 	<div id="footer">
-		<div class="container">
+    <div class="container">
 			<div class="row">
 				<div class="col-lg-4">
 					<h4>Contact</h4>
@@ -105,8 +114,7 @@
 				<!-- <div class="col-lg-4">
 					<h4>About Stanley</h4>
 					<p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
-				</div><!-- /col-lg-4 -->
-			 -->
+				</div>/col-lg-4 -->
 			</div>
 		
 		</div>
