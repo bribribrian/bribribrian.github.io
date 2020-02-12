@@ -133,7 +133,6 @@ a:after {
 }
 #education-logo-rcad {
 	background-color: none;
-	margin-top: 20px;
 	margin-bottom: 12px;
 }
 #education-text-bottom {
@@ -142,6 +141,10 @@ a:after {
 #index-logo-image {
 	margin: 0 auto;
 }
+#index-logo-image-aa {
+	margin: 0 auto;
+	margin-top: -20px;
+}
 #education-row-mt {
 	margin-top: 20px;
 }
@@ -149,6 +152,12 @@ a:after {
 	margin-bottom: 0px;
 	font-size: 18px;
 }
+.education-school-rcad{
+	margin-top: 14px;
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+
 #education-city {
 	margin-bottom: 10px;
 	font-size: 12px;
