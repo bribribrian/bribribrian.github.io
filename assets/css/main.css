@@ -90,6 +90,9 @@ a:after {
 #work-hr {
 	margin-bottom: 0px;
 }
+#index-hr {
+	border-top: 1px solid darkgrey;
+}
 
 #work-link {
 	font-weight: 800;
@@ -121,6 +124,37 @@ a:after {
 }
 #work-features-p {
 	margin-bottom: 10px;
+}
+#education-col {
+	height: 340px;
+}
+#education-logo {
+	background-color: none;
+}
+#education-logo-rcad {
+	background-color: none;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+#education-text-bottom {
+	margin-bottom: 10px;
+}
+#index-logo-image {
+	margin: 0 auto;
+}
+#education-row-mt {
+	margin-top: 20px;
+}
+.education-school {
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+#education-city {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+#projects-title {
+	margin-top: 0px;
 }
 
 .navbar {
@@ -182,7 +216,7 @@ a:after {
 
 #ww {
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 40px;
 	background-color: #c4c4c4;
 	border-bottom: 1px solid rgb(1, 204, 109);
 }
