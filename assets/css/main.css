@@ -148,6 +148,21 @@ a:after {
 #education-row-mt {
 	margin-top: 20px;
 }
+#skills-logo-icons-main {
+	display: flex;
+	justify-content: center;
+}
+#skills-logo-icons-main-2 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#skills-logo-title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
 .education-school {
 	margin-bottom: 0px;
 	font-size: 18px;
@@ -164,6 +179,29 @@ a:after {
 }
 #projects-title {
 	margin-top: 0px;
+}
+#education-col-2 {
+	width: 100%;
+	height: 100px;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.skills-logo-row {
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+#education-logo-2 {
+	display: flex;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#education-school-2 {
+	display: flex;
+}
+#skills-logo-container {
+	display: flex;
+	flex-direction: column;
 }
 
 .navbar {
@@ -224,7 +262,7 @@ a:after {
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
-	padding-top: 70px;
+	padding-top: 50px;
 	padding-bottom: 40px;
 	background-color: #c4c4c4;
 	border-bottom: 1px solid rgb(1, 204, 109);
