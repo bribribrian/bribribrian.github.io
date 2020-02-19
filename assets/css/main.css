@@ -162,6 +162,16 @@ a:after {
 	justify-content: center;
 	margin-bottom: 40px;
 }
+.project-info-tech {
+	font-size: 12px;
+}
+.project-info-ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	padding-left: 0px;
+}
 
 .education-school {
 	margin-bottom: 0px;
@@ -266,6 +276,7 @@ a:after {
 	padding-bottom: 40px;
 	background-color: #c4c4c4;
 	border-bottom: 1px solid rgb(1, 204, 109);
+	border-top: 1px solid rgb(1, 204, 109);
 }
 
 
@@ -363,7 +374,7 @@ bt {
 	color: #1abc9c;
 }
 .col-lg-4 {
-	height: 300px;
+	height: fit-content;
 	width: 390px;
 	border: 3px, solid, black;
 	margin-bottom: 25px;

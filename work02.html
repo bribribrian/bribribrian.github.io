@@ -46,6 +46,7 @@
             <!-- <li><a href="work.html">Work</a></li>
             <li><a href="about.html">About</a></li> -->
             <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a target="_blank" href="assets/img/Brian_Klein_Resume.pdf">Resume</a><br/></li>
             <li><a target="_blank" href="mailto:Bribribrian@gmail.com">Contact</a><br/></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -58,34 +59,40 @@
 	<div class="container pt">
 		<div class="row mt">
 			<div class="col-lg-6 col-lg-offset-3 centered">
-        <h3>O-O-T-D</h3>
-        <h2>Outfit of the Day</h2>
-				<hr>
-				| <a href="https://o-o-t-d.herokuapp.com">Live Site</a> | <a href="https://github.com/bribribrian/o-o-t-d">Github</a> |
-        <p>A MERN stack outfit organizer and generator</p>
+        <h1 id='work-main-title'>O-O-T-D</h1>
+        <h2 style="margin-bottom: 0px; margin-top: 0px;">Outfit of the Day</h2>
+        <hr id='work-hr'>
+        | <a href="https://o-o-t-d.herokuapp.com/#/splash">Live Site</a> | <a href="https://github.com/bribribrian/o-o-t-d">Github</a> |
+        <p id='work-subtitle'>A MERN stack outfit organizer and generator.</p>
         <p>O-O-T-D was built using MongoDB, Express, React, Node.js</p>
 			</div>
 		</div>
-		<div class="row mt centered">	
+		<div id='work-image-margin-top' class="row mt centered">	
 			<div class="col-lg-8 col-lg-offset-2">
-				<p><img class="img-responsive" src="assets/img/mernstackthumb.png" alt=""></p>
+        <p><img id= 'work-image' class="img-responsive" src="assets/img/o-o-t-d-collection.png" alt=""></p>
+        <img id= 'work-image-2' class="img-responsive" src="assets/img/o-o-t-d-login2.png" alt="">
+        <img id= 'work-image-2' class="img-responsive" src="assets/img/o-o-t-d-generate.png" alt="">
 				<!-- <p><img class="img-responsive" src="assets/img/portfolio/2.jpg" alt=""></p>
 				<p><img class="img-responsive" src="assets/img/portfolio/3.jpg" alt=""></p>
 				<p><bt>Client: <a href="#">BlackTie.co</a></bt> - <bt>Type: <a href="#">Illustration</a></bt> - <bt>Date: <a href="#">January 2014</a></bt></p> -->
 			</div>
     </div><!-- /row -->
-    <h3 class='project-body'>As Team Lead:</h3>
-    <p class='project-body'>Organized project schedule and prioritized goals of the project</p> 
-    <p class='project-body'>Assembled initial phases of front and back end, models, and UI for quick onboarding of team members</p>
-    <p class='project-body'>Integrated AWS S3 into the project to allow for project scalability and low-latency user experience</p>
-
+    <div id="work-row-mt-features" class="row mt">
+      <div class="col-lg-6 col-lg-offset-3 centered">
+        <h2>Features</h2>
+        <hr id='work-hr'>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">User Authentication </span> Secure user authenication implented via bcrypt.js. Demo User account available for guests.</p>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Items : </span> User can create a new item with image upload through AWS. User can filter items based on category.</p>
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Collections: </span> User can create a new collection consisting of items in their inventory. 
+            User can view index of all their current collections.</span> 
+        <p class='project-body' id='work-features-p'><span id="work-features-bold">Generate: </span>User can view collections based on filters.</p>
+      </div>
+    </div>
 	</div><!-- /container -->
-	
-	
 	<!-- +++++ Footer Section +++++ -->
 	
 	<div id="footer">
-		<div class="container">
+    <div class="container">
 			<div class="row">
 				<div class="col-lg-4">
 					<h4>Contact</h4>
@@ -108,15 +115,13 @@
 				<!-- <div class="col-lg-4">
 					<h4>About Stanley</h4>
 					<p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
-				</div><!-- /col-lg-4 -->
-			 -->
+                </div>
 			</div>
 		
 		</div>
 	</div>
 	
-
-    <!-- Bootstrap core JavaScript
+     Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.min.js"></script>
